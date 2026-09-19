@@ -1,0 +1,69 @@
+;
+; ws2812.pio
+; PIO assembly program that bit-bangs the WS2812B's 800kHz NRZ protocol
+; entirely in hardware. Adapted from the standard Pico SDK ws2812 example.
+;
+; The WS2812B encodes each bit as a pulse of varying high/low duration:
+;   '0' bit: ~0.4us high, ~0.85us low
+;   '1' bit: ~0.8us high, ~0.45us low
+; This program achieves that timing using the side-set pin combined with
+; precisely counted delay cycles, driven by a clock divider configured in
+; ws2812_program_init() (see leds.c) to give each instruction a known
+; real-world duration.
+;
+
+.program ws2812
+.side_set 1
+
+; Each loop iteration shifts one bit out of the OSR (Output Shift Register,
+; auto-loaded from the TX FIFO) and encodes it as a high/low pulse pair
+; whose relative widths depend on whether the bit is 0 or 1.
+.wrap_target
+bitloop:
+    out x, 1       side 0 [2]  ; Shift one bit into x; line low; 2-cycle delay
+    jmp !x do_zero side 1 [1]  ; Line high; branch on the bit value
+do_one:
+    jmp bitloop    side 1 [4]  ; '1' bit: stay high longer
+do_zero:
+    nop            side 0 [4]  ; '0' bit: go low early
+.wrap
+
+% c-sdk {
+/**
+ * @brief Configure and start a PIO state machine running the ws2812 program.
+ *
+ * Generated alongside the .pio program by the Pico SDK's pioasm tool; this
+ * helper block is emitted into ws2812.pio.h automatically at build time and
+ * called directly from leds.c — there is no separate .c file for it.
+ *
+ * @param pio          Which PIO block (pio0 or pio1) to configure.
+ * @param sm           State machine index within that block.
+ * @param offset       Program memory offset (from pio_add_program()).
+ * @param pin          GPIO pin connected to the LED data line.
+ * @param freq         Target bit rate in Hz (800000 for WS2812B).
+ * @param rgbw         true for RGBW (4-byte) LEDs, false for RGB (3-byte).
+ */
+static inline void ws2812_program_init(PIO pio, uint sm, uint offset, uint pin, float freq, bool rgbw) {
+    pio_gpio_init(pio, pin);
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, true);
+
+    pio_sm_config c = ws2812_program_get_default_config(offset);
+    sm_config_set_sideset_pins(&c, pin);
+
+    /* Shift left, auto-pull enabled, threshold = 24 (RGB) or 32 (RGBW) bits
+     * per LED — this determines how many bits the FIFO supplies before the
+     * state machine automatically pulls the next 32-bit word. */
+    sm_config_set_out_shift(&c, false, true, rgbw ? 32 : 24);
+    sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_TX);
+
+    /* Each PIO instruction in the bitloop takes a fixed number of cycles;
+     * dividing the system clock so that one bit period matches the WS2812B
+     * timing spec at the requested frequency. */
+    int cycles_per_bit = 10; /* matches the delay counts in the program above */
+    float div = clock_get_hz(clk_sys) / (freq * cycles_per_bit);
+    sm_config_set_clkdiv(&c, div);
+
+    pio_sm_init(pio, sm, offset, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+%}

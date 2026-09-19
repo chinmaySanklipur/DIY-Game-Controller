@@ -1,0 +1,20 @@
+{
+    "raspberry-pi-pico.cmakeAutoConfigure": true,
+    "cmake.options.statusBarVisibility": "hidden",
+    "cmake.options.advanced": {
+        "build": {
+            "statusBarVisibility": "hidden"
+        },
+        "launch": {
+            "statusBarVisibility": "hidden"
+        },
+        "debug": {
+            "statusBarVisibility": "hidden"
+        }
+    },
+    "cmake.configureOnOpen": false,
+    "raspberry-pi-pico.useCmakeTools": false,
+    "raspberry-pi-pico.cmakePath": "${HOME}/.pico-sdk/cmake/${cmakeVersion}/bin/cmake",
+    "raspberry-pi-pico.ninjaPath": "${HOME}/.pico-sdk/ninja/${ninjaVersion}/ninja",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
