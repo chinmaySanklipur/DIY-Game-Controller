@@ -1,0 +1,1300 @@
+[
+  {
+    "description": "Pins of type Power output and Power output are connected: Symbol RP1 Pin TP1 [USB_GND, Power output, Line]",
+    "items": [
+      {
+        "description": "Symbol RP1 Pin TP1 [USB_GND, Power output, Line]",
+        "uuid": "af544dfd-ad62-41fe-b9d4-3d859be8859b",
+        "x": 3.2258,
+        "y": 1.6637
+      },
+      {
+        "description": "Symbol RP1 Pin 33 [AGND, Power output, Line]",
+        "uuid": "a315f72c-5098-44ee-acd5-88890d03a091",
+        "x": 3.2258,
+        "y": 2.1971
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "error",
+    "sheet": "/",
+    "x": 3.2258,
+    "y": 1.6637
+  },
+  {
+    "description": "Pins of type Power output and Power output are connected: Symbol RP1 Pin 33 [AGND, Power output, Line]",
+    "items": [
+      {
+        "description": "Symbol RP1 Pin 33 [AGND, Power output, Line]",
+        "uuid": "a315f72c-5098-44ee-acd5-88890d03a091",
+        "x": 3.2258,
+        "y": 2.1971
+      },
+      {
+        "description": "Symbol RP1 Pin 3 [GND, Power output, Line]",
+        "uuid": "fc739995-3b4f-460a-9521-4ab07c3c6c8a",
+        "x": 2.9972,
+        "y": 2.3241
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "error",
+    "sheet": "/",
+    "x": 3.2258,
+    "y": 2.1971
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_Y1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_Y1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "459c5a67-ab60-45f3-b377-a96d7a797306",
+        "x": 0.6096,
+        "y": 0.4064
+      },
+      {
+        "description": "Symbol Bt_R_Y1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "65ecb385-5267-4f0a-a49e-4361bb0719bf",
+        "x": 0.6096,
+        "y": 0.4826
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 0.4064
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_R_Y1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_Y1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "65ecb385-5267-4f0a-a49e-4361bb0719bf",
+        "x": 0.6096,
+        "y": 0.4826
+      },
+      {
+        "description": "Symbol R8 Pin 1 [Passive, Line]",
+        "uuid": "d8dbbdf6-7ffa-4cdb-8ecd-7c7ea08a6f4e",
+        "x": 0.2286,
+        "y": 0.4064
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 0.4826
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_X1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_X1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "4e47b559-4b61-43a1-adf5-03c5390882d3",
+        "x": 0.6096,
+        "y": 0.7112
+      },
+      {
+        "description": "Symbol Bt_R_X1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "c403a319-ca88-40fe-a6a3-71658517d4c6",
+        "x": 0.6096,
+        "y": 0.7874
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 0.7112
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_R_X1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_X1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "c403a319-ca88-40fe-a6a3-71658517d4c6",
+        "x": 0.6096,
+        "y": 0.7874
+      },
+      {
+        "description": "Symbol R7 Pin 1 [Passive, Line]",
+        "uuid": "3d279fc8-16f4-4f86-b5ad-7ccd400fa355",
+        "x": 0.2286,
+        "y": 0.7112
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 0.7874
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_A1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_A1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "5cdf9e52-5746-49f9-bc26-4c1c0fcd4492",
+        "x": 0.6096,
+        "y": 1.016
+      },
+      {
+        "description": "Symbol Bt_R_A1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "3fe749a5-1115-4010-a4ff-4f5caa9fe1db",
+        "x": 0.6096,
+        "y": 1.0922
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 1.016
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_R_A1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_A1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "3fe749a5-1115-4010-a4ff-4f5caa9fe1db",
+        "x": 0.6096,
+        "y": 1.0922
+      },
+      {
+        "description": "Symbol R5 Pin 1 [Passive, Line]",
+        "uuid": "df3ce128-76ed-4c57-9393-5739c3e3ea67",
+        "x": 0.2286,
+        "y": 1.016
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 1.0922
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_B1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_B1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "d70feb92-e59c-4318-bdce-4f5612d4f995",
+        "x": 0.6096,
+        "y": 1.3208
+      },
+      {
+        "description": "Symbol Bt_R_B1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "0c48d01e-e42f-47b0-9689-c9ecad87381d",
+        "x": 0.6096,
+        "y": 1.397
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 1.3208
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_R_B1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_B1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "0c48d01e-e42f-47b0-9689-c9ecad87381d",
+        "x": 0.6096,
+        "y": 1.397
+      },
+      {
+        "description": "Symbol R6 Pin 1 [Passive, Line]",
+        "uuid": "a2d51146-46bd-4bae-8397-062ec16e68ae",
+        "x": 0.2286,
+        "y": 1.3208
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 1.397
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_LB1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_LB1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "e6cd8d81-ccb9-46a0-8ffa-0b758c5da0f1",
+        "x": 0.6096,
+        "y": 1.6256
+      },
+      {
+        "description": "Symbol Bt_L_LB1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "909ac0dd-8254-4713-b779-86e70fd0d200",
+        "x": 0.6096,
+        "y": 1.7018
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 1.6256
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_L_LB1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_LB1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "909ac0dd-8254-4713-b779-86e70fd0d200",
+        "x": 0.6096,
+        "y": 1.7018
+      },
+      {
+        "description": "Symbol R9 Pin 1 [Passive, Line]",
+        "uuid": "d0125956-a6ae-4fd3-99d2-885023785751",
+        "x": 0.2286,
+        "y": 1.6256
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 0.6096,
+    "y": 1.7018
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_Y1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_Y1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "0c816855-a5d3-41bb-b34e-673f3388f758",
+        "x": 1.016,
+        "y": 0.4064
+      },
+      {
+        "description": "Symbol Bt_R_Y1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "c239e05b-0659-4c48-b17a-d2c95a664c33",
+        "x": 1.016,
+        "y": 0.4826
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 0.4064
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_Y1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_Y1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "c239e05b-0659-4c48-b17a-d2c95a664c33",
+        "x": 1.016,
+        "y": 0.4826
+      },
+      {
+        "description": "Symbol Bt_View1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "0dd27f23-2939-41af-835f-fecd99041407",
+        "x": 2.1082,
+        "y": 1.016
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 0.4826
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_X1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_X1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "65741f06-9515-4fe5-9edb-4b43acd75a2e",
+        "x": 1.016,
+        "y": 0.7112
+      },
+      {
+        "description": "Symbol Bt_R_X1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "e467c656-1d5a-4064-90c0-89d713cf8810",
+        "x": 1.016,
+        "y": 0.7874
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 0.7112
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_X1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_X1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "e467c656-1d5a-4064-90c0-89d713cf8810",
+        "x": 1.016,
+        "y": 0.7874
+      },
+      {
+        "description": "Symbol Bt_R_Y1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "c239e05b-0659-4c48-b17a-d2c95a664c33",
+        "x": 1.016,
+        "y": 0.4826
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 0.7874
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_A1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_A1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "4705919f-d6d5-49b7-bc34-98ced8198576",
+        "x": 1.016,
+        "y": 1.016
+      },
+      {
+        "description": "Symbol Bt_R_A1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "190edd20-e474-4e79-8b60-df7023ad6d66",
+        "x": 1.016,
+        "y": 1.0922
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 1.016
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_A1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_A1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "190edd20-e474-4e79-8b60-df7023ad6d66",
+        "x": 1.016,
+        "y": 1.0922
+      },
+      {
+        "description": "Symbol Bt_R_B1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "d7252a3e-87e8-4f7c-a26e-0fdd47f396d6",
+        "x": 1.016,
+        "y": 1.3208
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 1.0922
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_B1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_B1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "d7252a3e-87e8-4f7c-a26e-0fdd47f396d6",
+        "x": 1.016,
+        "y": 1.3208
+      },
+      {
+        "description": "Symbol Bt_R_B1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "853c07e3-25d4-4d61-9d51-fbf60c14b305",
+        "x": 1.016,
+        "y": 1.397
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 1.3208
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_B1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_B1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "853c07e3-25d4-4d61-9d51-fbf60c14b305",
+        "x": 1.016,
+        "y": 1.397
+      },
+      {
+        "description": "Symbol Bt_R_X1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "e467c656-1d5a-4064-90c0-89d713cf8810",
+        "x": 1.016,
+        "y": 0.7874
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 1.397
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_LB1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_LB1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "1f45af38-37c0-4439-a839-ae51c342f4d7",
+        "x": 1.016,
+        "y": 1.6256
+      },
+      {
+        "description": "Symbol Bt_L_LB1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "d3bac7f2-e69d-457b-b234-aff1bf296105",
+        "x": 1.016,
+        "y": 1.7018
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 1.6256
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_LB1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_LB1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "d3bac7f2-e69d-457b-b234-aff1bf296105",
+        "x": 1.016,
+        "y": 1.7018
+      },
+      {
+        "description": "Symbol Bt_R_B1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "853c07e3-25d4-4d61-9d51-fbf60c14b305",
+        "x": 1.016,
+        "y": 1.397
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.016,
+    "y": 1.7018
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_RB1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_RB1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "99d353a9-5333-4790-98d6-9e64df96a34b",
+        "x": 1.7018,
+        "y": 0.4064
+      },
+      {
+        "description": "Symbol Bt_R_RB1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "184c8c03-95a5-4432-af40-fc2554cf33f6",
+        "x": 1.7018,
+        "y": 0.4826
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 0.4064
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_R_RB1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_RB1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "184c8c03-95a5-4432-af40-fc2554cf33f6",
+        "x": 1.7018,
+        "y": 0.4826
+      },
+      {
+        "description": "Symbol R10 Pin 1 [Passive, Line]",
+        "uuid": "237cfd45-b1d2-4ce8-b955-9f7c51fe1fa7",
+        "x": 1.3208,
+        "y": 0.4064
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 0.4826
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Menu1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Menu1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "3b0760ff-0a42-4cd3-a3ce-5066ad03bc92",
+        "x": 1.7018,
+        "y": 0.7112
+      },
+      {
+        "description": "Symbol Bt_Menu1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "d679a49d-ed7b-4111-9a60-eb04b4d11c12",
+        "x": 1.7018,
+        "y": 0.7874
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 0.7112
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_Menu1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Menu1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "d679a49d-ed7b-4111-9a60-eb04b4d11c12",
+        "x": 1.7018,
+        "y": 0.7874
+      },
+      {
+        "description": "Symbol R11 Pin 1 [Passive, Line]",
+        "uuid": "21027af8-02e8-4985-aa0f-3611aad78eda",
+        "x": 1.3208,
+        "y": 0.7112
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 0.7874
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_View1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_View1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "00091ce8-d541-434d-baf0-a98daf8472ce",
+        "x": 1.7018,
+        "y": 1.016
+      },
+      {
+        "description": "Symbol Bt_View1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "9c0d522a-871f-44e0-82de-31a28ff00fc7",
+        "x": 1.7018,
+        "y": 1.0922
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 1.016
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_View1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_View1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "9c0d522a-871f-44e0-82de-31a28ff00fc7",
+        "x": 1.7018,
+        "y": 1.0922
+      },
+      {
+        "description": "Symbol R12 Pin 1 [Passive, Line]",
+        "uuid": "fbe268ea-1607-41c3-ae0b-47e4ded3077a",
+        "x": 1.3208,
+        "y": 1.016
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 1.0922
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Guide1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Guide1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "15e5785d-ccf4-4d17-9aea-09207bfe0ee8",
+        "x": 1.7018,
+        "y": 1.3208
+      },
+      {
+        "description": "Symbol Bt_Guide1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "a676319e-b7a7-461f-a54b-c67144463fb3",
+        "x": 1.7018,
+        "y": 1.397
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 1.3208
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_Guide1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Guide1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "a676319e-b7a7-461f-a54b-c67144463fb3",
+        "x": 1.7018,
+        "y": 1.397
+      },
+      {
+        "description": "Symbol R13 Pin 1 [Passive, Line]",
+        "uuid": "a75a8dc4-43f5-420c-8835-7dc10bba4c92",
+        "x": 1.3208,
+        "y": 1.3208
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 1.397
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Share1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Share1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "871d6ff3-ab37-441d-84bd-415becaf36d0",
+        "x": 1.7018,
+        "y": 1.6256
+      },
+      {
+        "description": "Symbol Bt_Share1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "1bc47bea-a1aa-40c8-9f6d-d14b91b01b8f",
+        "x": 1.7018,
+        "y": 1.7018
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 1.6256
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_Share1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Share1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "1bc47bea-a1aa-40c8-9f6d-d14b91b01b8f",
+        "x": 1.7018,
+        "y": 1.7018
+      },
+      {
+        "description": "Symbol R14 Pin 1 [Passive, Line]",
+        "uuid": "27a5e81a-0f3b-4ad2-8ad6-7f3073181393",
+        "x": 1.3208,
+        "y": 1.6256
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 1.7018,
+    "y": 1.7018
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_RB1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_RB1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "f5b6fe45-6257-4489-9118-618828c25db7",
+        "x": 2.1082,
+        "y": 0.4064
+      },
+      {
+        "description": "Symbol Bt_R_RB1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "ddb8cc8c-3310-4c71-b17d-b64cab69eb61",
+        "x": 2.1082,
+        "y": 0.4826
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 0.4064
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_R_RB1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_R_RB1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "ddb8cc8c-3310-4c71-b17d-b64cab69eb61",
+        "x": 2.1082,
+        "y": 0.4826
+      },
+      {
+        "description": "Symbol Bt_View1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "0dd27f23-2939-41af-835f-fecd99041407",
+        "x": 2.1082,
+        "y": 1.016
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 0.4826
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Menu1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Menu1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "9ce2976a-3f25-4e3f-988c-36e0cd3ab253",
+        "x": 2.1082,
+        "y": 0.7112
+      },
+      {
+        "description": "Symbol Bt_Menu1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "5579aff5-307a-4dd8-b86f-18c00c00969a",
+        "x": 2.1082,
+        "y": 0.7874
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 0.7112
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Menu1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Menu1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "5579aff5-307a-4dd8-b86f-18c00c00969a",
+        "x": 2.1082,
+        "y": 0.7874
+      },
+      {
+        "description": "Symbol Bt_View1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "0dd27f23-2939-41af-835f-fecd99041407",
+        "x": 2.1082,
+        "y": 1.016
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 0.7874
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_View1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_View1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "0dd27f23-2939-41af-835f-fecd99041407",
+        "x": 2.1082,
+        "y": 1.016
+      },
+      {
+        "description": "Symbol Bt_View1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "8b1a34ed-f87a-4f7f-9306-cc591d2231fd",
+        "x": 2.1082,
+        "y": 1.0922
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 1.016
+  },
+  {
+    "description": "Pins of type Unspecified and Power output are connected: Symbol Bt_View1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_View1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "8b1a34ed-f87a-4f7f-9306-cc591d2231fd",
+        "x": 2.1082,
+        "y": 1.0922
+      },
+      {
+        "description": "Symbol RP1 Pin TP1 [USB_GND, Power output, Line]",
+        "uuid": "af544dfd-ad62-41fe-b9d4-3d859be8859b",
+        "x": 3.2258,
+        "y": 1.6637
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 1.0922
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Guide1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Guide1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "e1eaf566-1f96-4685-bcea-bc0af0c598b1",
+        "x": 2.1082,
+        "y": 1.3208
+      },
+      {
+        "description": "Symbol Bt_Guide1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "6f9e8230-b0f0-4af7-a24c-e0aa72e03751",
+        "x": 2.1082,
+        "y": 1.397
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 1.3208
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Guide1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Guide1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "6f9e8230-b0f0-4af7-a24c-e0aa72e03751",
+        "x": 2.1082,
+        "y": 1.397
+      },
+      {
+        "description": "Symbol Bt_Share1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "9ef84a5e-5ba9-4d7a-9672-d5717bd82130",
+        "x": 2.1082,
+        "y": 1.6256
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 1.397
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Share1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Share1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "9ef84a5e-5ba9-4d7a-9672-d5717bd82130",
+        "x": 2.1082,
+        "y": 1.6256
+      },
+      {
+        "description": "Symbol Bt_Share1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "1385a36e-d24a-4914-ba77-5dcf810fff25",
+        "x": 2.1082,
+        "y": 1.7018
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 1.6256
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_Share1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_Share1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "1385a36e-d24a-4914-ba77-5dcf810fff25",
+        "x": 2.1082,
+        "y": 1.7018
+      },
+      {
+        "description": "Symbol Bt_View1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "8b1a34ed-f87a-4f7f-9306-cc591d2231fd",
+        "x": 2.1082,
+        "y": 1.0922
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 2.1082,
+    "y": 1.7018
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_A1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_A1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "051e8124-4c48-4eb5-b3f5-417de5a06313",
+        "x": 4.2037,
+        "y": 1.524
+      },
+      {
+        "description": "Symbol Bt_L_A1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "b74348c0-b9e6-45fe-9313-4f888a0448a9",
+        "x": 4.2037,
+        "y": 1.6002
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.2037,
+    "y": 1.524
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_A1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_A1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "b74348c0-b9e6-45fe-9313-4f888a0448a9",
+        "x": 4.2037,
+        "y": 1.6002
+      },
+      {
+        "description": "Symbol Bt_L_S1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "99728ab8-b1d7-4dbe-8023-d7137d2b3675",
+        "x": 4.5593,
+        "y": 1.8669
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.2037,
+    "y": 1.6002
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_S1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_S1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "99728ab8-b1d7-4dbe-8023-d7137d2b3675",
+        "x": 4.5593,
+        "y": 1.8669
+      },
+      {
+        "description": "Symbol Bt_L_S1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "2bd740ec-ecd2-465a-8d7f-e7c4ff7e155b",
+        "x": 4.5593,
+        "y": 1.9431
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.5593,
+    "y": 1.8669
+  },
+  {
+    "description": "Local and global labels have same name: Global Label 'GND'",
+    "items": [
+      {
+        "description": "Global Label 'GND'",
+        "uuid": "ac989f14-726f-4773-bd85-cadecaa9eaa2",
+        "x": 4.5593,
+        "y": 1.8669
+      },
+      {
+        "description": "Label 'GND'",
+        "uuid": "15696e12-5217-4454-a55e-343ac5784961",
+        "x": 1.016,
+        "y": 1.0922
+      }
+    ],
+    "rule": "same_local_global_label",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.5593,
+    "y": 1.8669
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_S1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_S1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "2bd740ec-ecd2-465a-8d7f-e7c4ff7e155b",
+        "x": 4.5593,
+        "y": 1.9431
+      },
+      {
+        "description": "Symbol Bt_L_W1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "fe7d0437-d9c7-417d-8aba-e133f9fd1bd6",
+        "x": 4.572,
+        "y": 1.2827
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.5593,
+    "y": 1.9431
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_W1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_W1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "7a176fb5-d2a6-4f71-8c55-46c19ae587b4",
+        "x": 4.572,
+        "y": 1.2065
+      },
+      {
+        "description": "Symbol Bt_L_W1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "fe7d0437-d9c7-417d-8aba-e133f9fd1bd6",
+        "x": 4.572,
+        "y": 1.2827
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.572,
+    "y": 1.2065
+  },
+  {
+    "description": "Pins of type Unspecified and Power output are connected: Symbol Bt_L_W1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_W1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "fe7d0437-d9c7-417d-8aba-e133f9fd1bd6",
+        "x": 4.572,
+        "y": 1.2827
+      },
+      {
+        "description": "Symbol RP1 Pin TP1 [USB_GND, Power output, Line]",
+        "uuid": "af544dfd-ad62-41fe-b9d4-3d859be8859b",
+        "x": 3.2258,
+        "y": 1.6637
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.572,
+    "y": 1.2827
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_A1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_A1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "dc2196fc-628f-4894-85d5-55dc085425d6",
+        "x": 4.6101,
+        "y": 1.524
+      },
+      {
+        "description": "Symbol Bt_L_A1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "34085209-ed09-419b-a29e-7c056700693c",
+        "x": 4.6101,
+        "y": 1.6002
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.6101,
+    "y": 1.524
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_L_A1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_A1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "34085209-ed09-419b-a29e-7c056700693c",
+        "x": 4.6101,
+        "y": 1.6002
+      },
+      {
+        "description": "Symbol R3 Pin 1 [Passive, Line]",
+        "uuid": "b1840b91-d339-4df2-9440-159422e74dbc",
+        "x": 4.7244,
+        "y": 2.1209
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.6101,
+    "y": 1.6002
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_D1 Pin 1 [1, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_D1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "5bf9270a-cbf7-4867-9bcb-590ba9e6a70a",
+        "x": 4.9276,
+        "y": 1.5494
+      },
+      {
+        "description": "Symbol Bt_L_D1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "94cae319-5e44-46d5-9a91-379fea8ddea9",
+        "x": 4.9276,
+        "y": 1.6256
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.9276,
+    "y": 1.5494
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_D1 Pin 2 [2, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_D1 Pin 2 [2, Unspecified, Line]",
+        "uuid": "94cae319-5e44-46d5-9a91-379fea8ddea9",
+        "x": 4.9276,
+        "y": 1.6256
+      },
+      {
+        "description": "Symbol Bt_L_S1 Pin 1 [1, Unspecified, Line]",
+        "uuid": "99728ab8-b1d7-4dbe-8023-d7137d2b3675",
+        "x": 4.5593,
+        "y": 1.8669
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.9276,
+    "y": 1.6256
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_S1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_S1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "911b0614-77a4-420a-82f8-71c6c50e107c",
+        "x": 4.9657,
+        "y": 1.8669
+      },
+      {
+        "description": "Symbol Bt_L_S1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "3c9cca23-dab4-489b-8da6-6b065a55d92f",
+        "x": 4.9657,
+        "y": 1.9431
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.9657,
+    "y": 1.8669
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_L_S1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_S1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "3c9cca23-dab4-489b-8da6-6b065a55d92f",
+        "x": 4.9657,
+        "y": 1.9431
+      },
+      {
+        "description": "Symbol R2 Pin 1 [Passive, Line]",
+        "uuid": "4ca48be2-189f-49c4-9b07-a13501838755",
+        "x": 4.5212,
+        "y": 2.1209
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.9657,
+    "y": 1.9431
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_W1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_W1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "4d32cbdb-e486-4412-83ee-e9d649e9ff19",
+        "x": 4.9784,
+        "y": 1.2065
+      },
+      {
+        "description": "Symbol Bt_L_W1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "fae420de-6e42-4463-9259-7e4687a0321a",
+        "x": 4.9784,
+        "y": 1.2827
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.9784,
+    "y": 1.2065
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_L_W1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_W1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "fae420de-6e42-4463-9259-7e4687a0321a",
+        "x": 4.9784,
+        "y": 1.2827
+      },
+      {
+        "description": "Symbol R1 Pin 1 [Passive, Line]",
+        "uuid": "77ef611d-e63e-4a31-9148-fda63743fbbc",
+        "x": 4.318,
+        "y": 2.1209
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 4.9784,
+    "y": 1.2827
+  },
+  {
+    "description": "Pins of type Unspecified and Unspecified are connected: Symbol Bt_L_D1 Pin 3 [3, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_D1 Pin 3 [3, Unspecified, Line]",
+        "uuid": "d50b6a58-9bf7-43f5-99aa-1824754d7cfe",
+        "x": 5.334,
+        "y": 1.5494
+      },
+      {
+        "description": "Symbol Bt_L_D1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "9380b81c-214e-4dae-9ad7-619e7e2f9e6f",
+        "x": 5.334,
+        "y": 1.6256
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 5.334,
+    "y": 1.5494
+  },
+  {
+    "description": "Pins of type Unspecified and Passive are connected: Symbol Bt_L_D1 Pin 4 [4, Unspecified, Line]",
+    "items": [
+      {
+        "description": "Symbol Bt_L_D1 Pin 4 [4, Unspecified, Line]",
+        "uuid": "9380b81c-214e-4dae-9ad7-619e7e2f9e6f",
+        "x": 5.334,
+        "y": 1.6256
+      },
+      {
+        "description": "Symbol R4 Pin 1 [Passive, Line]",
+        "uuid": "81bfb8d8-da4c-4b9f-93e4-d01ca0274d69",
+        "x": 4.9276,
+        "y": 2.1209
+      }
+    ],
+    "rule": "pin_to_pin",
+    "severity": "warning",
+    "sheet": "/",
+    "x": 5.334,
+    "y": 1.6256
+  }
+]

@@ -8,7 +8,7 @@
  *
  * Storage lives in a small littlefs partition carved out of the RP2040's
  * 2 MB external flash, well above the firmware's own code/data footprint.
- */
+ **/
 
 #ifndef CONFIG_STORE_H
 #define CONFIG_STORE_H
